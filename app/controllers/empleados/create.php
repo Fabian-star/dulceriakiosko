@@ -1,6 +1,6 @@
 <?php
 include('../../config.php');
-
+//CODIGO PARA CREAR UN EMPLEADO
 $rfcEmpleado = $_POST['rfcEmpleado'];
 $apellidoPaterno = $_POST['apellidoPaterno'];
 $apellidoMaterno = $_POST['apellidoMaterno'];

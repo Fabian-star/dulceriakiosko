@@ -1,6 +1,7 @@
 <?php
 include('../../config.php');
 
+//CODIGO PARA ELIMINAR A UN CLIENTE CON SU RESPECTIVO MENSAJE
 $idCliente = $_POST['idCliente'];
 $sentencia = $pdo->prepare("DELETE FROM cliente WHERE idCliente=:idCliente");
 

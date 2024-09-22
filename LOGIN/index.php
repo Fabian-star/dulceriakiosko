@@ -20,7 +20,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <!-- /.login-logo -->
-
+<!-- CMENSAJE DE USUARIO NO REGISTRADO -->
     <?php
     session_start();
         if (isset($_SESSION['mensaje'])) {
@@ -33,7 +33,7 @@
 });
           </script>
     <?php
-        }
+        } 
     ?>
   <div class="card card-outline card-success">
     <div class="card-header text-center">

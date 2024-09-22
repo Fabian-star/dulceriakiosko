@@ -1,6 +1,7 @@
 <?php
 include('../../config.php');
 
+//CODIGO PARA PODER CREAR UN CLIENTE 
 $idCliente = $_POST['idCliente'];
 $apellidoPaterno = $_POST['apellidoPaterno'];
 $apellidoMaterno = $_POST['apellidoMaterno'];
@@ -11,7 +12,7 @@ $fechaNacimiento = $_POST['fechaNacimiento'];
 $email = $_POST['email'];
 
 
-
+//AQUI LLAMAMOS A TODOS LOS ATRIBUTOS DE LA TABLA CLIENTES
 
 if (isset($_POST['idCliente']) && isset($_POST['apellidoPaterno']) && isset($_POST['apellidoMaterno']) && isset($_POST['nombre']) && isset($_POST['direccion']) && isset($_POST['telefono']) && isset($_POST['fechaNacimiento']) && isset($_POST['email'])) {
         $sentencia = $pdo->prepare("INSERT INTO cliente

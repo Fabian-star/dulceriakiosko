@@ -1,5 +1,5 @@
 <?php
-
+//CODIGO PARA SOLO VER A LOS EMPLEADOS
 $rfcEmpleado_empleado_get = $_GET['rfcEmpleado'];
 
 $sql_empleado = "SELECT * FROM empleado where rfcEmpleado = '$rfcEmpleado_empleado_get'";

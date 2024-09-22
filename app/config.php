@@ -1,5 +1,7 @@
 <?php
 
+//CODIGO PARA CONECTAR LA BASE DE DATOS DE MYSQL CON EL SISTEMA
+
 define ('SERVIDOR','localhost');
 define ('USUARIO','root');
 define ('PASSWORD','');

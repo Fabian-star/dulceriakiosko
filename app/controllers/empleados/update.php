@@ -1,6 +1,6 @@
 <?php
 include('../../config.php');
-
+//MUESTRA LOS DATOS DEL EMPLEADO PARA PODER MODIFICAR
 $rfcEmpleado = $_POST['rfcEmpleado'];
 $apellidoPaterno = $_POST['apellidoPaterno'];
 $apellidoMaterno = $_POST['apellidoMaterno'];

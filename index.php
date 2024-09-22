@@ -3,7 +3,7 @@
     include('layout/sesion.php');
     include('layout/parte1.php');
 ?>
-
+<!-- IMAGEN PRINCIPAL -->
 <style>
     .content-wrapper {
         background-image: url('<?php echo $URL;?>/public/images/DULCES.avif');
@@ -14,7 +14,7 @@
     }
 </style>
 
-<!-- Content Wrapper. Contains page content -->
+<!-- CODIGO DE PAGINA PRINCIPAL -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
@@ -47,10 +47,10 @@
         margin-bottom: 50px; /* Cambia '20px' al valor que desees para el espacio de separación */
     }
 </style>
-
+<!-- ACERCA DE NOSOTROS -->
 <div class="message-container">
 <center><h2 class="m-0">¿QUIENES SOMOS?</h2></center>
-    <h3 class="m-4">Somos una tienda en línea especializada en ofrecerte los dulces más deliciosos y variados para satisfacer tus antojos más dulces. Desde clásicos caramelos hasta golosinas exóticas, en Kiosko encontrarás un paraíso para los amantes de lo dulce o para invertir en tu negocio. Nuestra pasión es brindarte una experiencia única que compras y de satisfacción encontrando lo que buscas. ¡Explora nuestro mundo de sabores y déjate tentar por nuestras delicias azucaradas! ¡SOMOS TU MEJOR OPCIÓN!</h3>
+    <h3 class="m-4">Somos una tienda especializada en ofrecerte los dulces más deliciosos y variados para satisfacer tus antojos más dulces. Desde clásicos caramelos hasta golosinas exóticas, en Kiosko encontrarás un paraíso para los amantes de lo dulce o para invertir en tu negocio. Nuestra pasión es brindarte una experiencia única que compras y de satisfacción encontrando lo que buscas. ¡Explora nuestro mundo de sabores y déjate tentar por nuestras delicias azucaradas! ¡SOMOS TU MEJOR OPCIÓN!</h3>
 </div>
 </div>
 <!-- /.content-wrapper -->
