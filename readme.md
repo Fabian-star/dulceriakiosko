@@ -1,1 +1,1 @@
-En la carpeta de documentacion completa se encuentra la documentacion final
+En la carpeta de documentacion se encuentra la documentacion final
