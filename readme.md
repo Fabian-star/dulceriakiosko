@@ -1,2 +1,1 @@
-En la carpeta de documentacion se encuentra otra carpeta donde se encuentra la documentacion
-final del proyecto maestra
+En la carpeta de documentacion completa se encuentra la documentacion final
