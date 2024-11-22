@@ -1,5 +1,6 @@
 <?php
 
+//CODIGO PARA PODER MODIFICAR A UN CLIENTE
 $idCliente_cliente_get = $_GET['idCliente'];
 
 $sql_cliente = "SELECT * FROM cliente where idCliente = '$idCliente_cliente_get'";

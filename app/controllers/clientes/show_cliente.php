@@ -1,5 +1,6 @@
 <?php
 
+//CODIGO PARA SOLAMENTE VISUALIZAR A LOS CLIENTES
 $id_cliente_get = $_GET['idCliente'];
 
 $sql_cliente = "SELECT * FROM cliente where idCliente = '$id_cliente_get'";

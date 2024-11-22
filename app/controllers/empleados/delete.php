@@ -1,6 +1,6 @@
 <?php
 include('../../config.php');
-
+//CODIGO PARA ELIMINAR UN EMPLEADO
 $rfcEmpleado = $_POST['rfcEmpleado'];
 $sentencia = $pdo->prepare("DELETE FROM empleado WHERE rfcEmpleado=:rfcEmpleado");
 

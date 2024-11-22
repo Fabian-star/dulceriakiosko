@@ -1,6 +1,6 @@
 <?php
 include('../../config.php');
-
+//LOGIN O CODIGO PARA PODER INGRESAR AL SISTEMA CON USUARIO Y CONTRASEÑA
 $email = $_POST['email'];
 $password = $_POST['password'];
 

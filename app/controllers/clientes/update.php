@@ -1,6 +1,7 @@
 <?php
 include('../../config.php');
 
+//CODIGO QUE MUESTRA TODOS LOS DATOS DEL CLIENTE PARA PODER EDITAR
 $idCliente = $_POST['idCliente'];
 $apellidoPaterno = $_POST['apellidoPaterno'];
 $apellidoMaterno = $_POST['apellidoMaterno'];
